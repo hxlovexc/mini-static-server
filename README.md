@@ -3,5 +3,4 @@
 
 安装:
 ```javascript
- 
 npm install res-server -g
