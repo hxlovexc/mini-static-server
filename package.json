@@ -1,0 +1,26 @@
+{
+  "name": "quick-server",
+  "version": "1.0.0",
+  "description": "快速在当前目录启动一个node服务",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "node-server"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hxlovexc/quick-server.git"
+  },
+  "bin": {
+    "quick-server": "./src/app.js"
+  },
+  "author": "小缘",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
