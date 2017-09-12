@@ -1,4 +1,4 @@
-## res-server
+## mini-static-server
 ### 用于在当前目录快速建立一个node服务的工具
 
 ## 安装:
