@@ -13,5 +13,5 @@ server start
 ```
 ## 自定义端口:
 ```bash
-res-server start 2222
+server start 2222
 ```
