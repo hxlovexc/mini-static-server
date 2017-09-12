@@ -1,28 +1,24 @@
 {
-  "name": "node-server",
-  "version": "1.0.0",
-  "description": "快速在当前目录启动一个node服务",
-  "main": "./src/app.js",
+  "name": "mini-static-server",
+  "version": "1.1.2",
+  "description": "快速启动一个node资源服务器命令行工具",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "node",
-    "server",
-    "node-server"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hxlovexc/node-server.git"
-  },
   "bin": {
-    "node-server": "./src/app.js"
+    "server": "./src/main.js"
   },
+  "keywords": [
+    "node服务",
+    "静态服务器"
+  ],
   "author": "小缘",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.9.0",
-    "express": "^4.15.2",
+    "commander": "^2.11.0",
+    "koa": "^2.3.0",
+    "koa-static": "^4.0.1",
     "open": "0.0.5"
   }
 }
